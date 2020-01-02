@@ -3,7 +3,7 @@
 
 [ClientName]_Theme
 
-    [NOTE]
+    [NOTE] 
         . This theme is based on Outsystems UI Theme Structure and CSS BEM best practices.
         . Below you can find the CSS map Structure that is been used on the Outsystems UI.
 
@@ -13707,6 +13707,54 @@ span.InputMandatorySymbol {
   .Form.form-right label {
       text-align: left;
   }
+}
+
+/* POPUPS */
+
+div.os-internal-Popup .os-internal-ui-dialog .os-internal-ui-dialog-titlebar, div.os-internal-Popup.os-internal-ui-dialog .os-internal-ui-dialog-titlebar {
+  background: var(--application-l);
+}
+
+.os-internal-ui-dialog-titlebar.os-internal-ui-widget-header.os-internal-ui-corner-all.os-internal-ui-helper-clearfix.os-internal-header-space{
+  background: var(--application-l);
+}
+
+.os-internal-Popup.os-internal-ui-dialog iframe {
+  border-radius: 0px;
+}
+
+.popup-topbuttons-wrapper{
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  background-color: var(--application-l);
+  z-index: 1;
+  padding-top: var(--space-base);
+  padding-bottom: var(--space-s);
+}
+.MainPopup{
+  background-color: var(--color-neutral-2);
+}
+
+.popup-bottombuttons-wrapper{
+  width: 100%;
+  z-index: 1;
+  padding-top: var(--space-base);
+  padding-bottom: var(--space-s);
+}
+
+.popup-overflow-y{
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.popup-DashboardItem-marginsBOT{
+  margin-bottom: 10px;
+}
+
+.popup-DashboardItem-marginsBOTRIG{
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 /* ExcludeFromPickers: Form, Form_Changed, form-top, form-left, form-right, Responsive, OSAutoMarginTop, WithTouchEvents, FormEditPencil, MandatoryLabel, ReadOnly, SmartInput_Changed, SmartInput_Undo, ThemeGrid_MarginGutter */
