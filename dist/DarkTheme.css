@@ -13717,7 +13717,7 @@ span.InputMandatorySymbol {
 
 /* NEW MENU ANIMATIONS */
 
-/* slide menus changes */
+/* slide menus changes 
 .navigation-menu-sidebar{
     transition: 0.3s;
     transform: translate(-250px);
@@ -13745,7 +13745,7 @@ span.InputMandatorySymbol {
 .icon-nav{
     display: none;
 }
-/*Ie11*/
+
 .ie11 .navigation-menu-sidebar{
     transition: 0.3s;
     left: -250px;
@@ -13769,9 +13769,7 @@ span.InputMandatorySymbol {
 .ie11 .content-middle-menu-open {
     left: 0px;
 }
-/*
-main content animation
-*/
+
 .main-content, .sidebar-container, .content, .content-top {
     transition: 0.3s;
 }
@@ -13779,9 +13777,7 @@ main content animation
     width: 100vw !important;
     left: 0 !important;
 }
-/*
-user side 
-*/
+
 .right-sidebar-menu-open {
     transform: translateX(0px) !important;
 }
@@ -13812,7 +13808,7 @@ user side
 .Menu_header {
     padding: 15px 0 0 60px !important;
 }
-/*Icon cross animation*/
+
 #openCloseIcon{
     transition:0.3s !important;
 }
@@ -13907,3 +13903,4 @@ user side
     -webkit-transition-delay: 0s, 0.3s;
     transition-delay: 0s, 0.3s;
 }
+*/
