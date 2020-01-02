@@ -397,11 +397,11 @@ Outsystems UI Theme Structure:
 @font-face {
     font-family: 'Hilda';
     src: 
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix') format('embedded-opentype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2') format('woff2'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff') format('woff'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf') format('truetype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg') format('svg');
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix') format('embedded-opentype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2') format('woff2'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff') format('woff'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf') format('truetype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg') format('svg');
     font-weight: 300;
     font-style: normal;
 }
@@ -409,11 +409,11 @@ Outsystems UI Theme Structure:
 @font-face {
     font-family: 'Hilda';
     src: 
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix') format('embedded-opentype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2') format('woff2'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff') format('woff'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf') format('truetype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg') format('svg');
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2') format('woff2'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff') format('woff'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf') format('truetype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg') format('svg');
     font-weight: 400;
     font-style: normal;
 }
@@ -421,11 +421,11 @@ Outsystems UI Theme Structure:
 @font-face {
     font-family: 'Hilda';
     src: 
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix') format('embedded-opentype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2') format('woff2'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff') format('woff'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf') format('truetype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg') format('svg');
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix') format('embedded-opentype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2') format('woff2'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff') format('woff'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf') format('truetype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg') format('svg');
     font-weight: 500;
     font-style: normal;
 }
@@ -433,25 +433,26 @@ Outsystems UI Theme Structure:
 @font-face {
     font-family: 'Hilda';
     src: 
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix') format('embedded-opentype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2') format('woff2'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff') format('woff'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf') format('truetype'),
-      url('/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg') format('svg');
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix') format('embedded-opentype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2') format('woff2'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff') format('woff'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf') format('truetype'),
+      url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg') format('svg');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'Ericsson-Icons';
-  src:  url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur');
-  src:  url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix') format('embedded-opentype'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur') format('truetype'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur') format('woff'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons') format('svg');
+  src:  url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur');
+  src:  url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix') format('embedded-opentype'),
+    url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur') format('truetype'),
+    url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur') format('woff'),
+    url('https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
 
 /* ================================================================ */
 /*  $1 - Resets
@@ -466,7 +467,7 @@ Outsystems UI Theme Structure:
 
 html {    
     color: var(--color-neutral-9);
-    font-family: 'Hilda, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Hilda, Roboto, Helvetica, Arial, sans-serif;
     overflow: auto;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -568,7 +569,7 @@ textarea.input {
 
 input, 
 textarea, 
-select, {
+select {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
@@ -1112,12 +1113,12 @@ input.Button, input.btn {
     background-color: var(--color-neutral-2);
 }
 
-.Button:not([class*="background"]):not([class*="text"]),
+/*.Button:not([class*="background"]):not([class*="text"]),
 .btn:not([class*="background"]):not([class*="text"]),
 .Button.Cancel:not([class*="background"]), 
 .btn.Cancel:not([class*="background"]){
-    /* background-color: var(--color-neutral-2); */
-}
+     background-color: var(--color-neutral-2); 
+}*/
 
 .Button.Is_Default:not([class*="background"]):not([class*="text"]),
 .btn.Is_Default:not([class*="background"]):not([class*="text"]) {
@@ -1155,7 +1156,7 @@ input.Button, input.btn {
 .Button.Cancel:not([class*="background"]):not(.Is_Default):hover, 
 .btn.Cancel:not([class*="background"]):not(.Is_Default):hover,
 .Button:not([class*="loading"]):hover, 
-.btn:not([class*="loading"]):hover, {
+.btn:not([class*="loading"]):hover {
     color: var(--color-neutral-1);
     background-color: var(--color-neutral-9);
 }
@@ -1167,12 +1168,12 @@ input.Button, input.btn {
     background-color: #B5B5B5;
 }
 
-a.Button, 
+/*a.Button, 
 a.btn,
 a.Button:visited, 
 a.btn:visited {
-    /* border: 0; */
-}
+     border: 0; 
+}*/
 
 .Button.background-primary,
 .btn.background-primary {
@@ -1671,7 +1672,7 @@ form {
 
 
 
-/* $3.1.1 - Page Layout - Header Top */
+/* $3.1.1 - Page Layout - Header Top 
 .header-top {
     
 }
@@ -1686,7 +1687,7 @@ form {
 
 .header-right {
 
-}
+}*/
 
 .layout .header {
     background-color: var(--color-background-header);
@@ -3980,16 +3981,7 @@ ul.bullets li:not(:last-child) {
             transform: translateY(-50%);
 }
 
-@font-face {
-  font-family: 'Ericsson-Icons';
-  src:  url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur');
-  src:  url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix') format('embedded-opentype'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur') format('truetype'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur') format('woff'),
-    url('/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 /* Choices Multiple */
 .choices__list--multiple {
