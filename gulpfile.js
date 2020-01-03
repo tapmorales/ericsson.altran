@@ -8,54 +8,32 @@
  */
 
 const gulp = require('gulp'),
-  sass = require('gulp-sass'),
-  sourcemaps = require('gulp-sourcemaps'),
+  gulpsass = require('gulp-sass'),
+  // sourcemaps = require('gulp-sourcemaps'),
   notify = require('gulp-notify'),
   rename = require('gulp-rename');
 
-function darkTheme() {
+function sass() {
   return gulp
-    .src('./src/**/DarkTheme.scss')
-    .pipe(sourcemaps.init())
+    .src('./src/**/*.scss')
+    // .pipe(sourcemaps.init())
     .pipe(
-      sass().on(
+      gulpsass().on(
         'error',
         notify.onError(function(error) {
           return 'Error ao compilar DarkTheme SASS: ' + error.message;
         })
       )
     )
-    .pipe(rename('DarkTheme.css'))
     .pipe(notify({ message: 'SASS Compilado' }))
-    .pipe(sourcemaps.write('.'))
+    // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./dist'));
 }
 
-exports.darkTheme = darkTheme;
-
-function lightTheme() {
-  return gulp
-    .src('./src/**/LightTheme.scss')
-    .pipe(sourcemaps.init())
-    .pipe(
-      sass().on(
-        'error',
-        notify.onError(function(error) {
-          return 'Error ao compilar LightTheme SASS: ' + error.message;
-        })
-      )
-    )
-    .pipe(rename('LightTheme.css'))
-    .pipe(notify({ message: 'SASS Compilado' }))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./dist'));
-}
-
-exports.lightTheme = lightTheme;
+exports.sass = sass;
 
 function watch() {
-  gulp.watch('./src/**/DarkTheme.scss', darkTheme);
-  gulp.watch('./src/**/LightTheme.scss', lightTheme);
+  gulp.watch('./src/**/*.scss', sass);
 }
 
 exports.watch = watch;

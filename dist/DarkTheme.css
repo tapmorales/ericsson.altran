@@ -5058,10 +5058,6 @@ ul.bullets li:not(:last-child) {
     -o-transform: translateX(0px);
     -ms-transform: translateX(0px); } }
 
-.width-content-init {
-  width: calc(100% - 248px) !important;
-  left: 248px; }
-
 .width-content {
   width: 100%;
   -webkit-animation: width-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -5088,41 +5084,6 @@ ul.bullets li:not(:last-child) {
   animation: slide-out-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   -o-animation: slide-out-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   -ms-animation: slide-out-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-
-@-webkit-keyframes slide-out-content {
-  from {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    ms-transform: translateX(0px); }
-  to {
-    -webkit-transform: translateX(-300px);
-    transform: translateX(-300px);
-    -moz-transform: translateX(-300px);
-    -o-transform: translateX(-300px);
-    -ms-transform: translateX(-300px); } }
-
-.slide-in-content {
-  -webkit-animation: slide-in-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -o-animation: slide-in-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  -ms-animation: slide-in-content 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-
-@-webkit-keyframes slide-in-content {
-  from {
-    -webkit-transform: translateX(-300px);
-    transform: translateX(-300px);
-    -moz-transform: translateX(-300px);
-    -o-transform: translateX(-300px);
-    -ms-transform: translateX(-300px); }
-  to {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px); } }
 
 /* RIGHT MENU ANIMATION */
 .slide-in-right-menu {
@@ -12456,5 +12417,3 @@ user side
 .lines.close span::before, .lines.close span::after {
   -webkit-transition-delay: 0s, 0.3s;
   transition-delay: 0s, 0.3s; }
-
-/*# sourceMappingURL=DarkTheme.css.map */
