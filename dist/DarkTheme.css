@@ -1,8 +1,6 @@
 /* =====================================================================
 ========================================================================
-
 [ClientName]_Theme
-
     [NOTE] 
         . This theme is based on Outsystems UI Theme Structure and CSS BEM best practices.
         . Below you can find the CSS map Structure that is been used on the Outsystems UI.
@@ -18,7 +16,7 @@ Outsystems UI Theme Structure:
         - Inputs and Selectors
         - Buttons
     $3 - Page Layout
-        - Header                 
+        - Header/*transition: all 180ms linear;
         - Menu                                       
         - Content                                    
     $4 - Patterns
@@ -30,7 +28,7 @@ Outsystems UI Theme Structure:
             - Content - BlankSlate
             - Content - Bullets
             - Content - Card
-            - Content - CardBackground
+            - Content - .input:active
             - Content - CardSectioned
             - Content - Carousel
             - Content - ChatMessage
@@ -343,32 +341,32 @@ Outsystems UI Theme Structure:
 /* ===================================================================== */
 @font-face {
   font-family: 'Hilda';
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix") format("embedded-opentype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2") format("woff2"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff") format("woff"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf") format("truetype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg") format("svg");
+  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix") format("embedded-opentype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2") format("woff2"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff") format("woff"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf") format("truetype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg") format("svg");
+  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix") format("embedded-opentype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2") format("woff2"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff") format("woff"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf") format("truetype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg") format("svg");
+  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix") format("embedded-opentype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2") format("woff2"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff") format("woff"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf") format("truetype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg") format("svg");
+  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ericsson-Icons';
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur");
-  src: url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix") format("embedded-opentype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur") format("truetype"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur") format("woff"), url("https://altranportugalsa-dev.outsystemscloud.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons") format("svg");
+  src: url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur");
+  src: url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur") format("woff"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -451,7 +449,7 @@ textarea.input,
 .layout .Form .input.ReadOnly:not(.Not_Valid),
 .layout .Form .select.ReadOnly:not(.Not_Valid) {
   /* -webkit-text-fill-color: var(--color-neutral-9); */
-  background-color: var(--color-neutral-0);
+  background-color: rgba(0, 0, 0, 0.15);
   border: var(--border-size-s) solid var(--color-neutral-4);
   border-radius: var(--border-radius-none);
   font-weight: var(--font-light);
@@ -461,7 +459,7 @@ textarea.input,
 textarea.input,
 .select {
   color: var(--color-neutral-9);
-  transition: all 180ms linear;
+  transition: none;
   font-family: inherit;
   -webkit-appearance: none;
   line-height: 1.2; }
@@ -503,10 +501,11 @@ select {
 [disabled="disabled"],
 [readonly="readonly"],
 textarea[readonly="readonly"] {
-  background-color: var(--color-neutral-6);
+  background-color: var(--color-background-toggle-disable);
   border: 1px solid var(--color-neutral-4);
   color: var(--color-neutral-6);
-  -webkit-text-fill-color: var(--color-neutral-9); }
+  -webkit-text-fill-color: var(--color-neutral-9);
+  pointer-events: none; }
 
 .input-small {
   height: 22px; }
@@ -519,14 +518,18 @@ textarea[readonly="readonly"] {
   border-left-width: var(--border-size-m);
   -webkit-text-fill-color: var(--color-neutral-9); }
 
-.input:focus,
-.input.changed:focus {
-  border: var(--border-size-s) solid var(--color-primary); }
-
 .input:hover,
 .input.changed:hover {
   border-color: var(--color-border-input-hover);
   border-width: var(--border-size-s); }
+
+.input:focus,
+.input.changed:focus{
+border: var(--border-size-s) solid var(--color-primary); }
+}
+  
+.input:active, .textarea:active{
+  border-color: var(--color-primary);}
 
 .input.Not_Valid,
 .textarea.Not_Valid,
@@ -643,6 +646,14 @@ a:not(.btn):visited.link-hover, a:not(.dropdown-menu):visited.link-hover {
 .kpi-label {
   line-height: 1.25;
   vertical-align: baseline; }
+  
+.kpi-subtext {
+  color: var(--color-subtxt);
+  font-size: var(--font-size-base); }
+  
+.kpi-subtext {
+  color: var(--color-subtxt);
+  font-size: var(--font-size-base); }
 
 .kpi-label a {
   color: var(--color-neutral-6) !important; }
@@ -947,11 +958,6 @@ input.Button, input.btn {
 .btn.Cancel:not([class*="background"]){
    background-color: var(--color-neutral-2); 
 }*/
-
-html .Button.Is_Default:not([class*="background"]):not([class*="text"]),
-html .btn.Is_Default:not([class*="background"]):not([class*="text"]) {
-  color: green !important;
-}
 .Button.Is_Default:not([class*="background"]):not([class*="text"]),
 .btn.Is_Default:not([class*="background"]):not([class*="text"]) {
   color: var(--color-neutral-10);
@@ -2549,6 +2555,12 @@ ul.bullets li:not(:last-child) {
   opacity: 0;
   top: -1px;
   left: -1px; }
+.switch{
+    padding: 0 24px;
+}
+.switch-theme-button{
+    text-align: right;
+}
 
 .switch .title {
   color: #F2F2F2;
@@ -2563,24 +2575,34 @@ ul.bullets li:not(:last-child) {
 .switch .toggle-button,
 .switch .toggle-button:hover {
   position: relative;
+.settings-title{
+margin-top: 17px;
+}
+
   top: 2px; }
 
 .btn-sign {
   position: absolute;
-  bottom: 80px;
-  width: 100%; }
+  bottom: 86px;
+  width: 100%;
+  text-align: center;}
 
 .btn-sign .Button {
-  width: 80%;
-  background-color: #0C0C0C !important;
-  color: #F2F2F2 !important;
-  border: var(--border-size-s) solid #FFFFFF; }
+    width: 80%;
+    background-color: #0C0C0C !important;
+    color: #F2F2F2 !important;
+    border: var(--border-size-s) solid #FFFFFF;
+    -webkit-text-fill-color: #F2F2F2 !important;
+    padding: 7px 1em;
+    font-size: 14px;}
 
 .btn-sign .Button:hover {
   width: 80%;
   background-color: #F2F2F2 !important;
+border: var(--border-size-s) solid #FFFFFF;
   color: #0C0C0C !important;
-  border: var(--border-size-s) solid #FFFFFF; }
+  border: var(--border-size-s) solid #FFFFFF;
+  -webkit-text-fill-color: #0C0C0C !important;}
 
 /* $4.2.3 - Patterns - Controls - DatePicker */
 .pika-single {
@@ -4102,14 +4124,19 @@ ul.bullets li:not(:last-child) {
 
 .sidebar-header {
   font-size: 18px;
+  padding: 0;
   /* padding: var(--space-base) 0px 0px var(--space-base); */ }
 
 .sidebar-content {
   font-size: 14px;
   padding: 0px; }
 
-.sidebar-header ph {
-  padding: 16px 0px 0px 16px; }
+.close-side-bar{
+  margin-bottom: 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;}
 
 .close-side-bar .icon {
   color: #FFF;
@@ -4147,9 +4174,11 @@ ul.bullets li:not(:last-child) {
   -servicestudio-height: auto;
   -servicestudio-transform: translateX(0); }
 
-.sidebar-header,
-.sidebar-content {
-  padding: var(--space-base) var(--space-m); }
+
+.right-menu-icon {
+    color: #fff;
+    font-size: 44px;
+}
 
 .sidebar-overlay {
   display: none;
@@ -7240,13 +7269,6 @@ padding-y-none {
   object-fit: cover;
   height: 100%; }
 
-[disabled="disabled"],
-[readonly="readonly"],
-textarea[readonly="readonly"] {
-  background-color: var(--color-neutral-2);
-  border: 1px solid var(--color-neutral-4);
-  color: var(--color-neutral-6);
-  pointer-events: none; }
 
 a:not(.Button)[disabled="disabled"] {
   background-color: transparent;
@@ -12383,7 +12405,8 @@ user side
   border: none;
   cursor: pointer;
   -webkit-transition: background 0.3s;
-  transition: background 0.3s; }
+  transition: background 0.3s;
+  z-index:999;}
 
 #openCloseIcon.lines-icon:focus {
   outline: none; }
@@ -12455,3 +12478,7 @@ user side
 .lines.close span::before, .lines.close span::after {
   -webkit-transition-delay: 0s, 0.3s;
   transition-delay: 0s, 0.3s; }
+
+/*# sourceMappingURL=DarkTheme.css.map */
+
+
