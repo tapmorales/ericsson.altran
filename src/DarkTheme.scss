@@ -3,7 +3,7 @@
 
 [ClientName]_Theme
 
-    [NOTE]
+    [NOTE] 
         . This theme is based on Outsystems UI Theme Structure and CSS BEM best practices.
         . Below you can find the CSS map Structure that is been used on the Outsystems UI.
 
@@ -7649,9 +7649,9 @@ a:not(.Button)[disabled="disabled"] {
   border: none;
 }
 
-.hide-on-service-studio {
-  -servicestudio-display: none;
-}
+// .hide-on-service-studio {
+//   -servicestudio-display: none;
+// }
 
 /* MUST NOT USE THIS FONT
 @font-face {
@@ -9091,21 +9091,22 @@ background-color: var(--application-l);
 .content-top {
   background-color: var(--application-l);
   -webkit-box-pack: justify;
-     -ms-flex-pack: justify;
-   justify-content: space-between;
-   padding: var(--space-base) var(--space-none) !important;
-   color: var(--color-neutral-9);
-   position: fixed;
-   left: 246px;
-   width: 100%;
-   height: 55px;
-   z-index: 10 !important;
-}
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: var(--space-base) var(--space-none) !important;
+  color: var(--color-neutral-9);
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  z-index: 10 !important;
+  transition: 0.5s;
+  transform: translateX(248px) !important;
+} 
 
 /* Service Studio utils */
-.HideInServiceStudio{
-  -servicestudio-display: none !important;
-}
+// .HideInServiceStudio{
+//   -servicestudio-display: none !important;
+// }
 
 
 .Menu_DropDownPanel_SideBar a:hover, .Menu_DropDownPanel_SideBar a:focus {
@@ -13709,6 +13710,54 @@ span.InputMandatorySymbol {
   }
 }
 
+/* POPUPS */
+
+div.os-internal-Popup .os-internal-ui-dialog .os-internal-ui-dialog-titlebar, div.os-internal-Popup.os-internal-ui-dialog .os-internal-ui-dialog-titlebar {
+  background: var(--application-l);
+}
+
+.os-internal-ui-dialog-titlebar.os-internal-ui-widget-header.os-internal-ui-corner-all.os-internal-ui-helper-clearfix.os-internal-header-space{
+  background: var(--application-l);
+}
+
+.os-internal-Popup.os-internal-ui-dialog iframe {
+  border-radius: 0px;
+}
+
+.popup-topbuttons-wrapper{
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  background-color: var(--application-l);
+  z-index: 1;
+  padding-top: var(--space-base);
+  padding-bottom: var(--space-s);
+}
+.MainPopup{
+  background-color: var(--color-neutral-2);
+}
+
+.popup-bottombuttons-wrapper{
+  width: 100%;
+  z-index: 1;
+  padding-top: var(--space-base);
+  padding-bottom: var(--space-s);
+}
+
+.popup-overflow-y{
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.popup-DashboardItem-marginsBOT{
+  margin-bottom: 10px;
+}
+
+.popup-DashboardItem-marginsBOTRIG{
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
 /* ExcludeFromPickers: Form, Form_Changed, form-top, form-left, form-right, Responsive, OSAutoMarginTop, WithTouchEvents, FormEditPencil, MandatoryLabel, ReadOnly, SmartInput_Changed, SmartInput_Undo, ThemeGrid_MarginGutter */
 
 
@@ -13723,12 +13772,14 @@ span.InputMandatorySymbol {
   transform: translate(0px);
 }
 .content-top-menu-open{
-  transform: translateX(0) !important;
-  left: 248px !important; 
+  // transform: translateX(248px) !important;
+  left: 0px !important; 
 }
 .content-top-menu-closed{
   transform: translateX(0) !important;
-  left: 60px !important; 
+  // left: 60px !important;  
+  padding-left: 60px !important;
+
 }
 .content-top-menu-close{
   transform: translateX(-240px);
