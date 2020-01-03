@@ -8427,9 +8427,6 @@ z-index: 10 !important;
   transform: translateX(248px) !important; }
 
 /* Service Studio utils */
-.HideInServiceStudio {
-  -servicestudio-display: none !important; }
-
 .Menu_DropDownPanel_SideBar a:hover, .Menu_DropDownPanel_SideBar a:focus {
   background-color: #383838; }
 
