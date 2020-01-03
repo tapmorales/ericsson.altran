@@ -341,32 +341,32 @@ Outsystems UI Theme Structure:
 /* ===================================================================== */
 @font-face {
   font-family: 'Hilda';
-  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg") format("svg");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.eot?#iefix") format("embedded-opentype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff2") format("woff2"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.woff") format("woff"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.ttf") format("truetype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Light.svg") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg") format("svg");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.eot?#iefix") format("embedded-opentype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff2") format("woff2"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.woff") format("woff"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.ttf") format("truetype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg") format("svg");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.eot?#iefix") format("embedded-opentype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff2") format("woff2"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.woff") format("woff"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.ttf") format("truetype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Hilda';
-  src: url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2") format("woff2"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff") format("woff"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg") format("svg");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.eot?#iefix") format("embedded-opentype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff2") format("woff2"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.woff") format("woff"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.ttf") format("truetype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/EricssonHilda-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ericsson-Icons';
-  src: url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur");
-  src: url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix") format("embedded-opentype"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur") format("truetype"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur") format("woff"), url("/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons") format("svg");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur");
+  src: url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.eot?d5j7ur#iefix") format("embedded-opentype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.ttf?d5j7ur") format("truetype"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.woff?d5j7ur") format("woff"), url("https://appcodeplatform-dev.internal.ericsson.com/EricssonWeb_Resources_v2/fonts/Ericsson-Icons.svg?d5j7ur#Ericsson-Icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 
