@@ -947,10 +947,14 @@ input.Button, input.btn {
 .btn.Cancel:not([class*="background"]){
    background-color: var(--color-neutral-2); 
 }*/
+
+html .Button.Is_Default:not([class*="background"]):not([class*="text"]),
+html .btn.Is_Default:not([class*="background"]):not([class*="text"]) {
+  color: green !important;
+}
 .Button.Is_Default:not([class*="background"]):not([class*="text"]),
 .btn.Is_Default:not([class*="background"]):not([class*="text"]) {
   color: var(--color-neutral-10);
-  color: red !important;
   background: var(--color-primary-btn-dft);
   border-radius: var(--border-radius-soft);
   border: var(--border-size-s) solid var(--color-primary-btn-dft); }
