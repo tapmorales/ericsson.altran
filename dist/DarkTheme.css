@@ -7247,9 +7247,6 @@ a:not(.Button)[disabled="disabled"] {
   background-color: transparent;
   border: none; }
 
-.hide-on-service-studio {
-  -servicestudio-display: none; }
-
 /* MUST NOT USE THIS FONT
 @font-face {
   font-family: 'SilkWeb4';
